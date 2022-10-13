@@ -1,0 +1,125 @@
+<!DOCTYBE html>
+	<!--Rami Aburayya, 1202851, Data:4/7/2022
+	in this task i will make website for my resume, and i 
+	should make my picuter change depends on the size of 
+	the screen, using the  picture element and source element
+	that have two attribute one called media for(min-width),
+	the last one called srcset for the source of the photo -->
+
+	<html>
+
+	<head>
+
+		<title>Rami Resume </title>
+
+		<link rel="stylesheet" href="MainStyle.css">
+	</head>
+
+	<body>
+
+		<h1>Full Stack Engineer</h1>
+
+		<div id="photo-container">
+			<picture id="pesonalPhoto">
+				<source media="(min-width:650px)" srcset="img\Pic1.png">
+
+				<source media="(min-width:465px)" srcset="img/Pic2.png">
+
+				<img id="pesonalPhoto" src="img/Pic1.png" alt="Avatar Personal Photo">
+			</picture>
+		</div>
+
+		<div id="contacts-container">
+			<h2>contacts</h2>
+			<p id="contact-name">Name: Rami Aburayya</p> ||
+
+			<a id="contact-email" href="mailto:ramiabraya16@gmail.com" title="Send Email For me">
+				Email: ramiaburaya16@gmail.com</a> ||
+
+			<a id="contact-phone" href="tel:+970569757661" title="Call me">Phone: +970569757661</a> ||
+
+			<a id="contact-acoount" href="https://www.linkedin.com/in/rami-aburaya1/" title="Check my Linkedin Account"
+				target="_block">Linkedin: rami-aburaya1</a> ||
+
+			<a id="contact-acoount" href="https://www.facebook.com/rami.aburaya.4/" title="Check my Facebook Account"
+				target="_block">Facebook: rami.aburaya.4</a> ||
+
+			<a id="contact-acoount" href="https://twitter.com/rami_aburaya1" title="Check my twitter Account"
+				target="_block">twitter: rami_aburaya1</a> ||
+
+			<p id="contact-name">Address: Tulkarem, 30300</p>
+
+		</div>
+
+		<hr>
+
+
+		<div id="info-container">
+			<h2> About me </h2>
+
+			<p>
+				Computer science student at BZU , Mainly focused on expanding my technical skills and moving towards my
+				first job .
+				interested in CyberSec , blockchain , and AI.
+			</p>
+
+		</div>
+
+		<hr>
+		<div id="skils-container">
+			<h2> Skils </h2>
+
+			<p>
+				<b>Data Structures</b> || <b>OOP</b> || <b>Problem Sovling</b> || Git || <b>PHP</b> || HTML || CSS ||
+				<b>Java</b> || <br><br>
+				BootStrap || <b>Web Security</b> || Bash script || Network || C (Programming Language)
+			</p>
+
+		</div>
+
+		<div id="Certifications-container">
+			<h2> Certifications </h2>
+			<p>
+				Full Stack Developer (Beprogrammer.org) <br> <br>
+				Networking Penetration Testing (Technawi.net)
+			</p>
+
+		</div>
+
+		<hr>
+
+		<div id="Projects-container">
+			<h2> Projects </h2>
+			<p>
+				<b>Air Line System</b>
+				<br> <br>
+				<b>System Departments manager</b>
+			</p>
+		</div>
+
+		<div id="Education-container">
+			<h2> Education </h2>
+			<p>
+				<b>Birzeit University</b>
+				<br> <br>
+				<i>Bachelor's degree, Computer Science</i>
+			</p>
+
+		</div>
+
+		<div id="Languages-container">
+			<h2> Languages </h2>
+			<p>
+				<b>Arabic</b> <i>(Native)</i><br><br>
+
+				<b>English</b> <i>(Professional)</i>
+
+			</p>
+
+		</div>
+		<hr>
+	</body>
+
+
+
+	</html>
