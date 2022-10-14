@@ -21,6 +21,9 @@ h1 {
 	margin-top: 20px;
 
 }
+mark {
+	background-color: #bfbfff;
+}
 
 #pesonalPhoto {
 	border-radius: 50%;
